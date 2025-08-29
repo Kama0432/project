@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    header p {
+      font-style: italic;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .about img {
+      width: 150px;
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto 20px;
+    }
+
+    .skills ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .skills li {
+      background: #f4f4f4;
+      margin: 5px;
+      padding: 10px 15px;
+      border-radius: 5px;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .project {
+      border: 1px solid #ccc;
+      padding: 15px;
+      border-radius: 8px;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+
+    .project:hover {
+      transform: scale(1.05);
+      background: #f9f9f9;
+    }
+
+    .resume a {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #333;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .contact p {
+      text-align: center;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Your Name</h1>
+    <p>Web Developer | Designer | Programmer</p>
+  </header>
+
+  <!-- About Section -->
+  <section class="about">
+    <h2>About Me</h2>
+    <img src="https://via.placeholder.com/150" alt="Your Photo">
+    <p>
+      Hello! I’m a passionate web developer with skills in HTML, CSS, and JavaScript. 
+      I love building creative and user-friendly websites. 
+      This portfolio highlights my skills, projects, and experience.
+    </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Responsive Design</li>
+      <li>Git & GitHub</li>
+    </ul>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Calculator App</h3>
+      <p>A simple calculator built with HTML, CSS, and JavaScript.</p>
+      <img src="https://via.placeholder.com/250x150" alt="Project Image">
+    </div>
+    <div class="project">
+      <h3>Landing Page</h3>
+      <p>A modern responsive landing page design using CSS Grid and Flexbox.</p>
+      <img src="https://via.placeholder.com/250x150" alt="Project Image">
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section class="resume">
+    <h2>Resume</h2>
+    <p><a href="resume.pdf" download>Download My Resume (PDF)</a></p>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: yourname@example.com</p>
+    <p>Phone: +91 9876543210</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Your Name | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
